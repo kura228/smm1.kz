@@ -1,0 +1,99 @@
+h1 {
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 900 !important;
+    font-size: 55px !important;
+    text-transform: uppercase !important;
+    color: #fff !important;
+}
+
+h2 {
+    font-family: 'Roboto' !important;
+    font-weight: 700 !important;
+    font-size: 36px !important;
+    text-transform: uppercase !important;
+    color: #fff !important;
+}
+
+h3 {
+    font-family: 'Roboto' !important;
+    font-weight: 700 !important;
+    font-size: 40px !important;
+    text-transform: uppercase !important;
+    color: #222222 !important;
+}
+
+h4 {
+    font-family: 'Roboto' !important;
+    font-weight: normal !important;
+    font-size: 24px !important;
+    text-transform: uppercase !important;
+}
+
+p {
+    font-size: 18px !important;
+}
+
+.head {
+    height: 100vh;
+    min-height: 460px;
+    background: url(../media/digital-marketing.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.head__nav {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.menu {
+    color: #fff;    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu__links {
+    color: #fff;
+}
+
+.menu__links, .menu__links:hover {
+    text-decoration: none;
+}
+
+.btn__menu-links {
+    padding: 15px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+}
+
+.call {
+    padding-right: 5px;
+}
+
+.head__body {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+}
+
+.head__body-content {
+    display: flex;
+    flex-direction: column;
+}
